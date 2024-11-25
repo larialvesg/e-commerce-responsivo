@@ -1,0 +1,52 @@
+@import "style.css";
+
+
+/* PÁGINA DO CHECKOUT */
+
+.campo_formulario {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+
+.campo_formulario.row-1 {
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 16px;
+  }
+
+.campo_formulario .col-1, .campo_formulario .col-2, .campo_formulario .col-3 {
+   padding:0
+  }
+.campo_formulario .col-1, .campo_formulario .col-2, .campo_formulario .col-3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   }
+
+.campo_formulario label{
+    font-size: 14px;
+    padding-bottom: 5px;
+  }
+
+.campo_formulario input, select{
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 10px;
+    border: 1px solid #cccbcb;
+  }
+
+form h2{
+    padding-bottom:20px
+  }
+
+.grid-1 input, label, select {
+    padding-top: 8px;
+}
+
+.grid-2{
+  padding-top: 3%;
+  padding-bottom: 3%;
+  display: flex;
+  justify-content: end;
+}

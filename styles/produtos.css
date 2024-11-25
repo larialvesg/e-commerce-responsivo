@@ -1,0 +1,394 @@
+@import "style.css";
+
+
+/* PÁGINA DE PRODUTOS*/
+
+#section-category{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 60px;
+}
+
+.category-link{
+    text-decoration: none;
+    color: black;
+}
+
+.main-category-card{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+.main-category-card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.main-category-card h4 {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.main-products{
+    padding-top: 2px;
+    padding-bottom: 20px;
+}
+
+.main-banner {
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+.category-books{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.main-title {
+    padding-top: 10px;
+}
+
+.category-title {
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+
+}
+.product-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding-bottom: 15px;
+}
+
+.product-grid-container .main-products {
+    padding-top: 0;
+}
+
+
+.boxes input {
+    margin-right: 10px;
+}
+
+#main-content .main-products div.container-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product-card{
+   margin-top: 30px;
+   display: flex;
+   flex-direction: column;
+   border: 1px solid #e5e5e5;
+   padding: 16px;
+   flex-grow: 0;
+   flex-shrink: 0;
+   flex-basis: 260px;
+   border-radius: 15px;
+   box-shadow: 2px 4px 1px rgba(0, 0, 0, 0.04);
+}
+
+.product-card-btn:hover {
+    border: 3px solid #CB6CE6;
+    
+}
+.product-card:hover {
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    transform: translateY(-10px);
+}
+
+/*Estilo para a imagem do produto dentro do card*/
+.product-card img{
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+/*Estilo para o botão de compra dentro do cartão */
+.product-card-btn{
+    width: 100%;
+    padding: 5px 10px;  
+    background-color:#fff;
+    border-radius: 15px;
+    color: black;
+}
+
+.main-text{
+    font-size: 24px;
+    font-weight: 700;
+   
+}
+
+.product-card-title{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.product-card-reference {
+    padding-top: 25px;
+    padding-bottom: 16px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.product-card-price{
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 12px;
+}
+
+.product-card-installment{
+    font-size: 12px;
+    padding-bottom: 17px;
+    font-weight: 300;
+}
+
+/* Product Page */
+
+
+
+#produto .product-title h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+#produto .product-title h6 {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#produto .product-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    column-gap: 16px;
+}
+
+#produto .col-1 {
+    width: 70%;
+}
+
+#produto .col-2 {
+    width: 30%;
+}
+
+
+#produto .grid-images {
+    display: flex;
+    align-items: center;
+}
+
+.carrousel {
+    width: 20%;
+}
+
+#produto .thumb {
+    width: 125px;
+}
+
+#produto .thumb img {
+    width: 100%;
+    object-fit: contain;
+}
+
+#produto .main-image-container {
+    width: 100%;
+}
+
+#produto .main-image-container img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.product-description {
+    padding-bottom: 30px;
+}
+
+.product-description h2 {
+    padding-bottom: 20px;
+}
+
+.price-container h3 {
+    padding-top: 50px;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+.price-container p {
+   padding-bottom: 25px;
+}
+
+/*BOTÃO DE COMPRAR */
+
+.button-product-page {
+    font-family: "inter",sans-serif;
+    font-weight: bold;
+    color: white;
+    border: none;
+    background: #CB6CE6;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+/* PARTE DO FRETE DA PÁGINA*/
+
+.frete-container {
+    padding-top: 30px;
+    border: 2px solid rgb(226, 225, 225);
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px
+}
+
+.frete-container p {
+    padding-top: 5px;
+    font-size: 14px;
+}
+.frete-container h5 {
+    font-family: "inter",sans-serif;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.price-container input {
+    width: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(214, 214, 214);
+    margin: 10px 0px;
+}
+
+.infos-cep {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+/* PARTE DOS VALORES DOS FRETES */
+
+.valores-frete {
+    padding-top: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #ECBFF4;
+    margin-top: 30px;
+}
+
+
+/* PAGINA DO CARRINHO DE COMPRAS */
+
+.carrinho-grid, 
+#checkout .checkout-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+}
+
+ul {
+    list-style: none;
+}
+.cart-item {
+    display: flex;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    
+}
+.cart-img-container {
+    width: 80px;
+    height: 80px;
+}
+
+.cart-img-container img {
+    width: 90%;
+    object-fit: contain;
+}
+
+.product-page-title {
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+
+.cart-item-info p{
+    padding-bottom: 5px;
+}
+
+.cart-item-info .bi-trash3{
+    padding-left: 700px;
+
+}
+
+.cart-item-info h2{
+font-size: 20px;
+}
+
+.cart-item-info input{
+width: 50px;
+padding:5px;
+border-radius: 10px;
+border: 1px solid rgb(214, 214, 214);
+margin: 10px 0px;
+text-align: center;
+margin-right: 15px;
+}
+
+.grid-2,  .grid-1{
+padding: 16px;
+padding-bottom: 25px;
+}
+
+
+.total-container {
+border: 1px solid black;
+padding: 10px;
+border-radius: 10px;
+}
+
+.total-info {
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.total-info h2 {
+font-size: 20px;
+padding-bottom: 5px;
+
+}
+
+.button-pagamento-page {
+    font-family: "inter",sans-serif;
+    font-weight: bold;
+    color: white;
+    border: none;
+    background: #CB6CE6;
+    width: 370px;
+    height: 50px;
+    border-radius: 1px;
+    margin-top: 15px;
+    text-align: center;
+}

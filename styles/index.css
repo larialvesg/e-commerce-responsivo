@@ -1,0 +1,288 @@
+@import "style.css";
+@import "style.css";
+
+/* Conteúdo principal da página */
+/* Sessão de categoria de produtos da pagina */
+
+#section-category {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 48px 60px;
+}
+
+.category-link {
+  text-decoration: none;
+  color: black;
+}
+
+.main-category-card {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+.main-category-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.main-category-card h4 {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.main-products {
+  padding-top: 2px;
+  padding-bottom: 20px;
+}
+
+.main-banner {
+  padding-bottom: 20px;
+}
+
+/*Estilo para o container de produtos*/
+#main-content .main-products div.container-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e5e5e5;
+  padding: 16px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 260px;
+  border-radius: 15px;
+  box-shadow: 2px 4px 1px rgba(0, 0, 0, 0.04);
+}
+
+.product-card-btn:hover {
+  border: 3px solid #cb6ce6;
+}
+.product-card:hover {
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+
+/*Estilo para a imagem do produto dentro do card*/
+.product-card img {
+  width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+/*Estilo para o botão de compra dentro do cartão */
+.product-card-btn {
+  width: 100%;
+  padding: 5px 10px;
+  background-color: #fff;
+  border-radius: 15px;
+  color: black;
+}
+
+.main-text {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.product-card-title {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  padding: 5px;
+}
+
+.product-card-reference {
+  padding-top: 25px;
+  padding-bottom: 16px;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.product-card-price {
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 12px;
+}
+
+.product-card-installment {
+  font-size: 12px;
+  padding-bottom: 17px;
+  font-weight: 300;
+}
+
+/*Banner livros de romance*/
+
+#banner-principal {
+  width: auto;
+}
+
+#banner-principal img {
+  width: 100%;
+  padding-top: 29px;
+}
+
+
+@media (max-width: 990px){
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  .titulo-informativo{
+   font-size: 0.6rem;
+   margin-left: 3%;
+   margin-right: 3%;
+  }
+  
+  .search-bar input::placeholder {
+    font-size: 60%; 
+    padding-left: 100%;
+    
+
+  }
+  .header-top-icons{
+    margin-top: 2%;
+    margin-right: 2%;
+    font-size: 1.5rem;
+  }
+
+  .header-navbar a {
+    font-size: 0.7rem;
+    font-weight: medium;
+  }
+  .header-navbar{
+    margin-right: 5%;
+  }
+  
+
+  .img-banner-principal {
+    width: 90%;
+    display: flex;
+    margin-bottom: 3%;
+  }
+
+  #header-banner {
+    display: flex;
+    justify-content: center;
+  }
+  .main-category-card h4 {
+    font-size: 0.4rem;
+  }
+  
+  .main-category-card img{
+    height: 6rem;
+    width: 40%;
+    border-radius: 6%;
+    
+  }
+  .main-category-card{
+    margin-right: 28%;
+  }
+  #section-category {
+    display: flex;
+    gap: 2%;
+    justify-content: space-between; 
+    padding: 20px 0; 
+  }
+  #section-category h4{
+    margin-right: 60%;
+  }
+  .main-banner{
+    margin-left: 0%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+
+  }
+  .main-title{
+    margin-top: 3%;
+    margin-left: 2%;
+    font-size: 1.5rem;
+  }
+  .product-card{
+    display: flex;
+    flex-basis: 42%;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  #banner-principal{
+    margin-top: -1%;
+    width: 95%; 
+  }
+  footer {
+    background-color: #CB6CE6;
+    padding: 11%;
+    color: white;
+    text-align: center;
+  }
+  
+  .container-rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .footer-col1, .footer-col2,.footer-col3 {
+    flex: 1;
+    margin: 2%;
+  }
+  
+  .footer-col1 p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+  
+  .icons-rodape i {
+    font-size: 2rem;
+    margin: 0 10px;
+  }
+  
+  .app-download img {
+    width: 120px;
+    margin: 5px;
+  }
+  
+  .footer-col3 a {
+    display: block;
+    margin: 5px 0;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .container-rodape {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .app-download img {
+    width: 100px;
+  }
+
+  .footer-col3 a {
+    font-size: 0.7rem;
+  }
+  }
+  
+  
+  
+

@@ -1,0 +1,278 @@
+@import "normalize.css";
+
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* layout */
+
+.container-1{
+    max-width: 1200px;
+    margin: 0 auto
+}
+
+body{
+    font-family: "inter",sans-serif;
+}
+
+/* textos e titulos */
+
+.titulo-informativo {
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+/* cabecalho */
+
+#barra-de-informacoes {
+    background-color: #CB6CE6;
+    padding: 8px 0;
+}
+
+#barra-de-informacoes .container-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topo-cabecalho{
+    max-width: 1400px;
+    margin: 0 auto
+
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+/*Topo Cabecalho*/
+
+#topo-cabecalho{
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#topo-cabecalho .header-logo{
+    width: 127px;
+    /* height: 88px; */
+}
+#topo-cabecalho img{
+    width: 100%;
+}
+
+/*Barra de Pesquisa -- */
+
+#topo-cabecalho .search-bar{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#topo-cabecalho input{
+    width: 70%;
+    font-size: 20px;
+    padding: 16px 60px;
+    border-radius: 15px;
+    border: none;
+    position: relative;
+    border: 1px solid #e4e4e4;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.header-top-icons {
+    padding: 10px;
+    font-size: 30px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    padding-top: 53px;
+   
+  }
+   
+.header-top-icons:hover{
+      transform: scale(1.1);
+      box-shadow: rgb(238, 0, 0);
+  }
+
+/*NAV BAR*/
+
+#navbar .container-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 42px;
+
+}
+
+#navbar ul{
+    list-style: none;
+}
+
+#navbar li{
+    padding: 0 35px;
+    font-size: 18px;
+    color: black;
+    
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Banner do cabeçalho*/
+
+#header-banner {
+    width: auto;
+}
+
+#header-banner img {
+    width: 100%;
+}
+
+
+/* PARTE DOS VALORES DOS FRETES */
+
+.valores-frete {
+    padding-top: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #ECBFF4;
+    margin-top: 30px;
+}
+/* PARTE DO FRETE DA PÁGINA*/
+
+.frete-container {
+    padding-top: 30px;
+    border: 2px solid rgb(226, 225, 225);
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px
+}
+
+.frete-container p {
+    padding-top: 5px;
+    font-size: 14px;
+}
+.frete-container h5 {
+    font-family: "inter",sans-serif;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.price-container input {
+    width: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(214, 214, 214);
+    margin: 10px 0px;
+}
+
+.infos-cep {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.button-pagamento-page {
+    font-family: "inter",sans-serif;
+    font-weight: bold;
+    color: white;
+    border: none;
+    background: #CB6CE6;
+    width: 370px;
+    height: 50px;
+    border-radius: 1px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+/* Rodapé */
+
+footer {
+    background-color: #CB6CE6;
+
+}
+
+footer .container-1{
+    max-width: 1500px;
+}
+
+.linha-rodape {
+    border-bottom: 1px #CB6CE6 dashed;
+    margin-bottom: 10px;
+}
+
+.container-rodape {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    
+
+  }
+
+.footer-col1, .footer-col3, .footer-col2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+    color: white;
+    
+}
+
+.footer-col3, .footer-col2 {
+    justify-content: center;
+    align-items: center;
+    color: white
+}
+
+.footer-col1 {
+    padding-top: 4%;
+    flex-direction: row;
+    column-gap: 30px;
+    color: white;
+
+}
+.texto-sobre-leitura{
+    margin-left: 9%;
+}
+
+.icons-rodape {
+    font-size: 40px;
+    padding-bottom: 20px;
+    
+}
+
+footer a {
+    text-decoration: none;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.app {
+    border: 2px solid #fff;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+.texto-para-baixar-app{
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.app-download {
+    height: 50px;
+    display: flex;
+    column-gap: 15px;
+}
+

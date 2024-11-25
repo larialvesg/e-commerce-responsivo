@@ -1,0 +1,38 @@
+@import "style.css";
+
+
+/*PAGINA SOBRE NOS */
+
+.sobre-nos-imagem img{
+    width: 60%;
+}
+
+ .sobre-nos-grid {
+    display: grid;
+    grid-template-columns: 1.15fr 1.5fr ;
+}
+
+.img-sobre-nos {
+    width: 460px
+}
+
+.img-sobre-nos img {
+    width: 100%;
+}
+
+
+.texto-sobre-nos p {
+    padding-bottom: 25px;
+}
+
+.sobre-nos-title h2{
+    padding-bottom: 2%;
+
+}
+.texto-sobre-nos h3 {
+    padding-bottom: 5%;
+}
+
+.grids {
+    padding-bottom: 5%;
+}
