@@ -156,6 +156,11 @@
     padding-bottom: 17px;
     font-weight: 300;
 }
+.boxes {
+  display: flex;
+  flex-direction: row; 
+  gap: 1rem; 
+}
 
 @media (max-width: 990px){
     * {
@@ -231,6 +236,19 @@
       margin-left: 4%;
       margin-right: 4%;
     }
+    .main-title{
+      margin-left: 2%;
+    }
+  
+    .boxes {
+      display: flex;
+      flex-direction: row; 
+      gap: 1rem; 
+    }
+    .categorys{
+      margin-left: 2%;
+    }
+
     footer {
       background-color: #CB6CE6;
       padding: 11%;
