@@ -50,3 +50,115 @@ form h2{
   display: flex;
   justify-content: end;
 }
+
+
+
+@media (max-width: 990px){
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  .titulo-informativo{
+      font-size: 0.6rem;
+      margin-left: 3%;
+      margin-right: 3%;
+     }
+     
+     .search-bar input::placeholder {
+       font-size: 60%; 
+       padding-left: 100%;
+       
+   
+     }
+     .header-top-icons{
+       margin-top: 2%;
+       margin-right: 2%;
+       font-size: 1.5rem;
+     }
+   
+     .header-navbar a {
+       font-size: 0.7rem;
+       font-weight: medium;
+     }
+     .header-navbar{
+       margin-right: 5%;
+     }
+     .carrinho-grid, 
+     #checkout .checkout-grid {
+         display: flex;
+         flex-direction: column;
+    
+     }
+     .button-pagamento-page{
+      margin-right: 3;
+
+     }
+    
+
+
+
+
+
+
+
+
+     footer {
+      background-color: #CB6CE6;
+      padding: 11%;
+      color: white;
+      text-align: center;
+    }
+    
+    .container-rodape {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+    
+    .footer-col1, .footer-col2,.footer-col3 {
+      flex: 1;
+      margin: 2%;
+    }
+    
+    .footer-col1 p {
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+    
+    .icons-rodape i {
+      font-size: 2rem;
+      margin: 0 10px;
+    }
+    
+    .app-download img {
+      width: 120px;
+      margin: 5px;
+    }
+    
+    .footer-col3 a {
+      display: block;
+      margin: 5px 0;
+      color: white;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+    
+    .container-rodape {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .app-download img {
+      width: 100px;
+    }
+  
+    .footer-col3 a {
+      font-size: 0.7rem;
+    }
+    
+    }
